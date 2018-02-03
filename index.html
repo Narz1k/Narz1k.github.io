@@ -13,6 +13,7 @@
 	<!--Иконка которая будет на вкладке в браузере-->
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="icon" href="/favicon.ico">
+	<link rel="stylesheet" href="css/animate.css">
 	<!--Заголовок на вкладке в браузере-->
 	<title>Губин Михаил - создание сайтов</title>
 
@@ -24,15 +25,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img src="img/main-img.png" alt="Логотип" class="header-img">
+					<img src="img/main-img.png" alt="Логотип" class="header-img animated fadeInLeftBig">
 				</div>
 				<!-- /.col-7 -->
 				<div class="col-lg-5">
-					<p class="header-pretitle">Веб-разработчик</p>
-					<h1 class="header-title">Губин Михаил</h1>
-					<p class="header-subtitle">Верстка на HTML/CSS <br> 
+					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Губин Михаил</h1>
+					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS <br> 
 					Разработка сайтов под ключ</p>
-					<div class="header-button-block">
+					<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
 						<a href="https://vk.me/id4424671" class="header-button">Связаться</a>
 						<small>*Это бесплатно</small>
 					</div>
@@ -46,7 +47,7 @@
 
 	<section class="portfolio">
 		<div class="container">
-			<div class="portfolio-block">
+			<div class="portfolio-block animated fadeIn">
 				<h2 class="portfolio-title">Портфолио</h2>
 				<p class="portfolio-subtitle">Мои работы</p>
 				<div class="row">
@@ -85,10 +86,10 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p>Подпишитесь:</p>
-						<a href="https://www.facebook.com/faktop.ctpaxa"><img src="img/Socials/facebook.png" alt="Facebook"></a>
-						<a href="https://vk.com/id4424671"><img src="img/Socials/vk.png" alt="VKontakte"></a>
-						<a href="https://t.me/Narz1k"><img src="img/Socials/telegram.png" alt="Telegram"></a>
-						<a href="https://www.youtube.com/channel/UCvDMFVF39CLdY18PYufSN1w?view_as=subscriber"><img src="img/Socials/youtube.png" alt="YouTube"></a>
+						<a href="https://www.facebook.com/faktop.ctpaxa"><img class="wow bounceInDown" data-wow-delay="0.1s" src="img/Socials/facebook.png" alt="Facebook"></a>
+						<a href="https://vk.com/id4424671"><img class="wow bounceInDown" data-wow-delay="0.4s" src="img/Socials/vk.png" alt="VKontakte"></a>
+						<a href="https://t.me/Narz1k"><img class="wow bounceInDown" data-wow-delay="0.2s" src="img/Socials/telegram.png" alt="Telegram"></a>
+						<a href="https://www.youtube.com/channel/UCvDMFVF39CLdY18PYufSN1w?view_as=subscriber"><img class="wow bounceInDown" data-wow-delay="0.3s" src="img/Socials/youtube.png" alt="YouTube"></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -103,5 +104,9 @@
 		</div>
 		<!-- /.container -->
 	</footer>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
