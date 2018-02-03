@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 }
 img {
@@ -112,6 +112,7 @@ header small {
 /* Подвал */ 
 footer {
 	background-color: #3a7dfd;
+	background-image: linear-gradient(-147deg, #3a7dfd 0%, #1157db 100%);
 	color: #ffffff;
 	padding-top: 60px;
 	padding-bottom: 110px;
